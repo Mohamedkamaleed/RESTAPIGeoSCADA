@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTAPIGeoSCADA", "RESTAPIGeoSCADA\RESTAPIGeoSCADA.csproj", "{8EB3643B-0798-4BCF-9B04-8607997533FA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ODBCConnector", "ODBCConnector\ODBCConnector.shproj", "{E00CEDD2-1A1D-47FE-A790-BA261EE0C5DA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RESTAPIConnector", "RESTAPIConnector\RESTAPIConnector.shproj", "{4933C297-F42D-4ADF-8BEA-DD550DB7B3B8}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RESTAPIConnector\RESTAPIConnector.projitems*{4933c297-f42d-4adf-8bea-dd550db7b3b8}*SharedItemsImports = 13
+		ODBCConnector\ODBCConnector.projitems*{8eb3643b-0798-4bcf-9b04-8607997533fa}*SharedItemsImports = 4
+		RESTAPIConnector\RESTAPIConnector.projitems*{8eb3643b-0798-4bcf-9b04-8607997533fa}*SharedItemsImports = 4
+		ODBCConnector\ODBCConnector.projitems*{e00cedd2-1a1d-47fe-a790-ba261ee0c5da}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EB3643B-0798-4BCF-9B04-8607997533FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB3643B-0798-4BCF-9B04-8607997533FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB3643B-0798-4BCF-9B04-8607997533FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB3643B-0798-4BCF-9B04-8607997533FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D103CFC-836A-4539-99E5-A54518F5CECC}
+	EndGlobalSection
+EndGlobal
